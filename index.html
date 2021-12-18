@@ -1,0 +1,72 @@
+<!-- HTML-01 - Basic structure -->
+<!-- 17/12/21 -->
+
+<!-- etiqueta que indica al navegador que estamos usando HTML5-->
+<!DOCTYPE html>
+<!-- etiqueta para indicar idioma -->
+<html lang="es">
+    <!-- se puede hacer una página web sin sección head pero los navegadores penalizan -->
+    <head>
+        <!-- meta tags - proveen información para los navegadores-->
+        <!-- charset versión UTF-8 para representar carácteres en español-->
+        <meta charset="UTF-8">
+        <!-- para correcta visualiazación en navegadores old -->
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <!-- para visualización 1:1 en el navegador-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- incluir palabras clave para SEO | ya no es tan relevante-->
+        <meta name="keywords" content="fitness, athlete, sport"> 
+        
+        <title>Name of my page</title>
+    </head>
+
+    <body>
+        <!-- se usa solo una vez -->
+        <!-- Solo para títulos, debe estar relacionado con el tema de nuestra página -->
+        <h1>Huge title</h1>
+        <!-- podemos poner más de una de las siguientes -->
+        <h2>Big title</h2>
+        <h3>Not so big title</h3>
+        <h4>Title</h4>
+        <h5>Meh title</h5>
+        <h6>Lil title</h6>
+
+        <!-- etiqueta párrafo -->
+        <p>text</p>
+
+        <!-- usar lorem para páginas en construcción -->
+        <!-- lorem10 - insertará 10 palabras del lorem -->
+        <!-- lorem*3 - insertará 3 parrafos de lorem -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, voluptatibus!</p>
+
+        <!-- <br/> etiqueta autoconclusiva para dividir secciones-->
+        <!-- <hr/> etiqueta autoconcluisva para salto de página -->
+        <hr />
+        <p>Lorem ipsum dolor <br/> sit amet consectetur adipisicing elit. Molestias officia animi quisquam, repellendus et, <span style="color: blueviolet">corporis commodi</span> deleniti, sunt ut porro placeat quia mollitia nesciunt ipsa doloribus! Eos, ratione corporis?</p>
+        
+        <!-- en línea -->
+        <span style="background-color: burlywood;">Hey</span>
+
+        <span style="color: cornflowerblue;">BaiBai</span>
+        
+        <!-- en bloque -->
+        <div style="background-color: blue;"> 
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, earum atque asperiores ratione omnis provident numquam voluptates consectetur ipsa nemo facere fugiat dolore perspiciatis, quos repellat maiores accusamus pariatur architecto!
+            </p>
+        </div>
+
+        <div style="background-color: crimson;">
+            lorem
+        </div>
+
+        <a target="_blank" href="https://www.google.com">Click here!</a>
+
+    </body>
+</html>
+
+<!-- la página funcionará de manera correcta aún sin identación, al navegador solo le 
+importa que las etiquetas estén bien cerradas. La identación es para que el código sea
+fácil de leer para las personas -->
+
+<!-- Cuidado con los comentarios, se ven al inspeccionar la página -->
