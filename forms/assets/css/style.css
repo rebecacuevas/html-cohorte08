@@ -1,0 +1,42 @@
+/*Stylesheet - HTML-09*/
+/*21/12/21*/
+
+body {
+  background-color: black;
+}
+
+input {
+  background-color: black;
+  font-family: monospace;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+h2,
+h3 {
+  color: white;
+  font-family: monospace;
+  margin-left: 500px;
+}
+
+fieldset {
+  color: white;
+  font-family: monospace;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+label {
+  color: white;
+  font-family: monospace;
+}
+
+.surname {
+  width: 280px;
+}
+
+.individual {
+  margin: 10px;
+  margin-left: 500px;
+}

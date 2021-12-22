@@ -1,0 +1,51 @@
+/* Stylesheet - HTML-10 - Forms challenge*/
+/*21/12/21*/
+
+.verde {
+  width: 490px;
+  height: 480px;
+  background-color: green;
+  border: 10px solid lightsteelblue;
+  border-radius: 5px;
+  padding-left: 70px;
+  padding-top: 20px;
+}
+
+p {
+  color: white;
+  padding-top: 5px;
+}
+
+.cuadritos {
+  padding-left: 50px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.one {
+  width: 100px;
+  height: 20px;
+  display: inline-block;
+}
+
+#across {
+  width: 230px;
+  border: 3px solid red;
+  border-radius: 3px;
+}
+
+.enviar {
+  width: 250px;
+  height: 100px;
+  padding: 10px;
+  padding-top: 20px;
+  border-top: 2px dashed white;
+}
+
+.boton {
+  width: 160px;
+  font-size: medium;
+  font-weight: bold;
+  padding: 3px;
+  box-shadow: 1px 1px gray;
+}

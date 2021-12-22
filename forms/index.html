@@ -1,0 +1,89 @@
+<!--HTML-09 - Forms-->
+<!--21/12/21-->
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        <title>Forms</title>
+    </head>
+    <body>
+
+        <form class="formulario">
+
+            <input type="text"><br>
+            <input type="date"><br>
+            <input type="color"><br>
+            <input type="password"><br>
+            <input type="file"><br>
+            <input type="checkbox"><br>
+            <input type="radio"><br>
+            <input type="submit"><br>
+            <input type="button" value="Send now"><br>
+            <input type=""><br>
+            <input type=""><br>
+            <input type=""><br>
+
+        </form>
+
+        <button>Order now</button>
+
+        <hr>
+
+        <h2>¿Qué esperas para unirte? </h2>
+
+        <h3>Ingresa tus datos</h3>
+        
+        <form>
+            <!-- Es opcional, mejor usar divs | <fieldset></fieldset>-->
+
+                <div class="individual">
+
+                    <label for="nombre">Nombre</label>
+
+                    <input class="name" id="nombre" type="text" name="nombre" placeholder="¿Cómo te llamas?"> <br>
+
+                    <label for="apellidopat">Apellido paterno</label>
+
+                    <input class="surname" id="apellidopat" type="text" name="apellidopat" placeholder="¿Cuále es tu apellido paterno?" required> <br>
+
+                    <label for="apellidomat">Apellido materno</label>
+
+                    <input class="surname" id="apellidomat" type="text" name="apellidomat" placeholder="¿Cuále es tu apellido materno?"> <br>
+
+                    <label for="correo" >Correo</label>
+
+                    <input class="email" id="correo" type="email" name="correo" placeholder="¿Cuál es tu email?"><br>
+
+                    <label for="cotraseña">Contraseña</label>
+
+                    <input id="contraseña" type="password" name="contraseña" placeholder="Escribe tu contraseña"> <br>
+
+                <div class="enviar">
+
+                    <input type="submit" value="Ingresar">
+
+                </div>
+
+                </div>
+        </form>
+
+        <form>
+            <fieldset>
+
+                <legend>Ingresa el número</legend>
+
+                <label for="numero">Numero</label>
+
+                <input id="texto" type="number" name="numero" min="10" max="20"><br>
+                
+
+                <label for="rango">Rango</label>
+
+                <input id="rango" name="rango" type="range" min="18" max="120">
+
+            </fieldset>
+        </form>
+    </body>
+</html>
