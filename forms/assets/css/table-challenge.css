@@ -1,0 +1,60 @@
+body {
+  background-color: aquamarine;
+}
+
+table,
+tr,
+th,
+td {
+  border: 2px solid black;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+th,
+td {
+  width: 150px;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  background-color: black;
+}
+
+.orange {
+  background-color: rgb(194, 131, 14);
+}
+
+.green {
+  background-color: rgb(155, 252, 77);
+}
+
+.yellow {
+  color: yellow;
+}
+
+#max {
+  width: 250px;
+}
+
+#max2 {
+  width: 230px;
+}
+
+#min {
+  width: 100px;
+}
+
+#min2 {
+  width: 120px;
+}
+
+.center {
+  text-align: center;
+}

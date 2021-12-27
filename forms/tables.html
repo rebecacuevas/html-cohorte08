@@ -1,0 +1,56 @@
+<!--HTML-12 - Tables -->
+<!--22/12/21-->
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/css/tables.css" type="text/css">
+
+        <title>Tablas</title>
+    </head>
+    <body>
+
+        <h1>Tablas</h1>
+        <!--colspan - se extiende por columnas-->
+        <!--rowspan - se extiende por filas-->
+        <!--solo válidos para th y td-->
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Cabecera</th>
+                    <th colspan="2">Cabecera 2</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>A</td>
+                    <td>B</td>
+                    <td rowspan="3">C</td>
+                </tr>
+                <tr>
+                    <td>Hola</td>
+                    <td>Adiós</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>Pie de tabla I</td>
+                    <td>Pie de tabla II</td>
+                    <td>Pie de tabla III</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <!--Para fonts Google agregar un link en head-->
+
+    </body>
+</html>

@@ -1,0 +1,58 @@
+<!--HTML-14 - Table challenge II-->
+<!--22/12/21-->
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/css/table-challenge02.css" type="text/css">
+
+        <title>Table challlenge II</title>
+    </head>
+    <body>
+
+        <h2>Tabla con celdas extendidas</h2>
+        <!--colspan - se extiende por columnas-->
+        <!--rowspan - se extiende por filas-->
+        <!--solo válidos para th y td-->
+
+        <table>
+            
+            <tbody>
+
+                <tr>
+                    <td colspan="3">alfa</td>
+                    <td>bravo</td>
+                    <td rowspan="2">charlie</td>
+                </tr>
+
+                <tr>
+                    <td>delta</td>
+                    <td>echo</td>
+                    <td>foxtrot</td>
+                    <td>golf</td>
+
+                </tr>
+                <tr>
+                    <td>hotel</td>
+                    <td colspan="3" rowspan="2">india</td>
+                    <td>juliet</td>
+                </tr>
+                <tr>
+                    <td>kilo</td>
+                    <td>lima</td>
+                </tr>
+
+                <tr>
+                    <td>mike</td>
+                    <td>november</td>
+                    <td>oscar</td>
+                    <td>papa</td>
+                    <td>quebec</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </body>
+</html>
